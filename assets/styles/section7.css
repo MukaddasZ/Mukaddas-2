@@ -1,0 +1,107 @@
+.section7 {
+    background: #0E4D6C;
+    box-sizing: border-box;
+    display: flex;
+    padding: 75px 339.24px 81.456px 340.76px;
+    justify-content: center;
+    align-items: center;
+}
+.section7-container {
+    height: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section7-form {
+    width: 100%;
+    max-width: 760px;
+    border: 15px solid #F05833;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
+    align-items: center;
+}
+.section7-title {
+    color: #0E4D6C;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 86px;
+}
+.section7-text{
+    width: 100%;
+    max-width: 520px;
+    color: #0E4D6C;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 24px 120px 40px 120px;
+
+}
+.section7-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section7-form-input {
+    width: 100%;
+    max-width: 520px;
+    color: #676566;
+    text-align: center;
+    font-family: Geometria;
+    font-size: 24px;
+    height: 49px;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid  #3A4764;
+    font-weight: 200;
+   
+  }
+  
+  .section7-form-input::placeholder {
+    color: #676566;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 100;
+ 
+  }
+  .section7-form-input:focus {
+    outline: none;
+    border-color: orange;
+  }
+
+  .section5-form__input::placeholder {
+    color: #676566;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+
+  .section7-form-btn {
+   
+    color: #0E4D6C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    background: transparent;
+    border: 5px solid #f05833;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.64);
+  
+  }
+  
+  .section7-form-btn:hover {
+    background: #f05833;
+    border-color: #fff;
+    box-shadow: 0px 0px 30px 0px #f05833;
+    cursor: pointer;
+  }
