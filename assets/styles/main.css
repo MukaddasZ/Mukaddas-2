@@ -193,7 +193,6 @@
   font-weight: 500;
   border: none;
   padding: 0 30px;
-
   cursor: pointer;
   transition: all 500ms ease;
 }
@@ -292,11 +291,35 @@
 @media only screen and (max-width: 600px) {
   .header {
   }
+  .hero-btns {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .header {
+  }
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    aspect-ratio: 1.5;
+  }
+  .hero-btns {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    align-content: center;
   }
 }
 
